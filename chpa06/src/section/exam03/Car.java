@@ -1,11 +1,14 @@
 package section.exam03;
 
 public class Car {
+	
 	String company;
 	String model;
 	int maxSpeed;
 	
-	public Car() {}
+	public Car() {
+		
+	}
 	
 	// 기본생성자가 아닌 다른 생성자가 정의 되어 있다면
 	// 기본생성자를 생략할 수 없다.
