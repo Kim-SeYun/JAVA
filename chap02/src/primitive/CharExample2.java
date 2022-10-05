@@ -1,0 +1,16 @@
+package primitive;
+
+public class CharExample2 {
+	public static void main(String[] args) {
+		// String 타입
+		// 공백문자, 빈문자 모두 허용
+		String empty1 = ""; // 빈문자, 초기화
+		System.out.println(empty1);
+		String whiteSpace1 = " ";
+		
+		// char 타입 공백문자허용, 빈문자 허용하지 않음
+//		char empty2 = ''; 
+		char whiteSpace2 = ' ';
+	}
+
+}
