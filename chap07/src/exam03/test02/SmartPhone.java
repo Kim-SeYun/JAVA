@@ -1,16 +1,18 @@
 package exam03.test02;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import exam03.test01.CellPhone;
 
 public class SmartPhone extends CellPhone{
 	
-	private String[] apps;
+	public List<String> apps;
 	
 	public SmartPhone() {
-		apps = new String[10];
-		apps[0] = "유튜브";
-		apps[1] = "플레이스토어";
-		apps[2] = "네이버";
+		apps = new ArrayList<String>();
+		apps.add("유튜브");
+		apps.add("플레이스토어");
 	}
 	
 	public void appExecute(String appName) { // 유튜브
@@ -24,6 +26,10 @@ public class SmartPhone extends CellPhone{
 		System.out.println("해당 앱이 존재하지 않습니다.");
 			
 		}
+	
+	public void appDownload(String appName) {
+		this.apps.add(appName);
+	}
 		
 }
 
