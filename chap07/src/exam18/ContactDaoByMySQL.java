@@ -10,7 +10,7 @@ public class ContactDaoByMySQL {
 	static {
 		list.add(new Contact("엄마", "000000000"));
 		list.add(new Contact("아빠", "11111111"));
-		list.add(new Contact("형", "22222222"));
+		list.add(new Contact("오빠", "22222222"));
 		list.add(new Contact("동생", "33333333"));
 	}
 	
