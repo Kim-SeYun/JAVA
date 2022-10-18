@@ -12,11 +12,13 @@ public class GameMain {
 		b3.lift();
 		b3.generateUnit();
 		
+		
 		System.out.println("========================");
 		
 		Upgradable ac = new Academy(600, 1000);
 		ac.upgrade("½ºÆÀÆÑ");
 		((Academy)ac).repare();
+		System.out.println();
 		
 	}
 		
