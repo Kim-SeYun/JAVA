@@ -1,10 +1,14 @@
 package exam03;
 
 public class Car {
-	public int test = 0; // 필드
+	public static final int TEST_VALUE = 10; // 상수
+	public Car(int test) {
+//		this.test = test;
+	}
 	
 	public static void main(String[] args) {
-		int test = 0; // 지역(로컬)변수
+		final int sum; // 지역(로컬)변수
+		sum = 10;
 	}
 
 }
