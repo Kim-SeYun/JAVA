@@ -28,8 +28,14 @@ public class Animal {
 		
 		
 		// 큰 타입의 객체를 작은 타입에 할당 : 강제타입변환(Casting), 명시적
-		Dog b1 = (Dog)new Animal();
-		Cat b2 = (Cat)new Animal();
+		// CLassCastException 예외발생
+		// 슈퍼클래스로 생성된 객체를 하위타입으로 변환할때 
+//		Dog b1 = (Dog)new Animal();
+//		Cat b2 = (Cat)new Animal();
+		
+		// 본래 하위클래스 객체로 생성되어 슈퍼클래스 타입에 할당된 객체만이 강제타입변환의 대상이 된다.
+		Animal c1 = new Dog();
+		Dog c2 = (Dog)c1;
 	}
 }
 
