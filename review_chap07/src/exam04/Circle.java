@@ -2,8 +2,8 @@ package exam04;
 
 public class Circle extends Figure{
 	
-	
-	public static void area() {
+	@Override
+	public void area() {
 		System.out.println("¿øÀÇ ³ĞÀÌ");
 	}
 

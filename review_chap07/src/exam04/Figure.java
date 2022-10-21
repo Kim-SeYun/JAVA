@@ -2,7 +2,7 @@ package exam04;
 
 public class Figure {
 	
-	public static void area() {
+	public void area() {
 		System.out.println("도형의 넓이");
 	}
 
