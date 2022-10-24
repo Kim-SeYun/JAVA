@@ -12,7 +12,6 @@ class DummyB{}
 
 interface Liftable{
 	void lift();
-	
 }
 interface Repeareable{
 	void  repare();
