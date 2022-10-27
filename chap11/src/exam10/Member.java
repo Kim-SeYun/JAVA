@@ -1,6 +1,6 @@
 package exam10;
 
-public class Member {
+public class Member implements Comparable<Member>{
 	private int id;
 	private String name;
 	
@@ -24,6 +24,13 @@ public class Member {
 	@Override
 	public String toString() {
 		return "Member [id=" + id + ", name=" + name + "]";
+	}
+	@Override
+	public int compareTo(Member member) {
+//		return this.name.compareTo(member.getName()); // 사전순서
+//		return member.getName().compareTo(this.name); // 사전역순
+		
+		return this.name.compareTo(member.getName());
 	}
 
 	
